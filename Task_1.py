@@ -21,6 +21,8 @@ for hms in list_time:
         print(all_t)
 print(sum(all_minutes))
 '''
+
+
 list_time = str_time.replace(',',' ').split()
 total_minutes = 0
 for t in list(list_time):
